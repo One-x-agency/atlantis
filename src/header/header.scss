@@ -1,0 +1,75 @@
+@import "../scss/main.scss";
+
+.headerback {
+  background-color: #0057b7;
+  @media (max-width:1024px) {
+    display: none;
+  }
+
+  .headerflex1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 30px;
+    border-bottom: 2px solid #ffffff53;
+   
+    
+
+    img {
+      max-width: 142px;
+    }
+  }
+
+  .headerflex {
+    display: flex;
+    gap: 8px;
+
+    p {
+      font-size: 12px;
+      color: white;
+    }
+    img {
+      max-width: 14px;
+    }
+  }
+  .headerflex2 {
+    display: flex;
+    padding: 14px 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    p {
+      font-size: 15px;
+      color: white;
+      min-width: 189px;
+    }
+  }
+}
+.tabback{
+display: none;
+}
+@media (max-width:1024px) {
+.tabback{
+    display: block;
+    background-color: #0057b7;
+    padding: 10px;
+
+    .tabflex{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      .img1{
+        padding: 10px;
+      }
+      img{
+        max-width: 16px;
+      }
+      .logo{
+        max-width: 106px;
+      }
+    }
+  }
+}
+
+
